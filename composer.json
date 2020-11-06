@@ -1,0 +1,16 @@
+{
+  "name": "haonannor/weather",
+  "description": "The ThinkPHP6 Package",
+  "autoload": {
+    "psr-4": {
+      "Haonanor\\Weather\\": "./src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "mockery/mockery": "^1.3"
+  }
+}
